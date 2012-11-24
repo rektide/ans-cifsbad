@@ -1,0 +1,7 @@
+---
+cifs_remotes:
+- server-one.mount-one:
+  srv: server-one
+  mount: mount-one
+  username: myname
+  password: mypassword

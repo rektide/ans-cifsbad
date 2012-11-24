@@ -1,0 +1,10 @@
+[Unit]
+Description={{ item.srv }}.{{ item.mount }} automount
+Wants=network.target
+After=network.target
+ 
+[Automount]
+Where=/mnt/remote/{{ item.srv }}.{{ item.mount }}
+ 
+[Install]
+WantedBy=multi-user.target

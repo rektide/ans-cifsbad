@@ -1,0 +1,5 @@
+username={{ item.username }}
+password={{ item.password }}
+{%- if item.domain %}
+domain={{ item.domain }}
+{%- endif %}

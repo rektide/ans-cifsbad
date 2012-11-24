@@ -1,0 +1,7 @@
+---
+cifs_remotes:
+- server-one.mount-secondary:
+  srv: server-one
+  mount: mount-secondary
+  username: myname
+  password: mypassword

@@ -1,0 +1,10 @@
+[Unit]
+Description={{ item.srv }}.{{ item.mount }} directory
+Wants=network.target
+After=network.target
+ 
+[Mount]
+What=//{{ item.srv }}/{{ item.mount }}
+Where=/mnt/remote/{{ item.srv }}.{{ item.mount }}
+Type=cifs
+Options=credentials=/root/.cifscred-{{ item.srv}}.{{ item.mount }},rw,iocharset=utf8,uid=500,gid=500,_netdev
