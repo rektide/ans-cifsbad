@@ -1,6 +1,5 @@
----
-cifsmountSOMS:
-  srv: server-one
-  mount: mount-secondary
+-
+  srv: serverone
+  mount: mountsecondary
   username: myname
   password: mypassword

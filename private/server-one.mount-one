@@ -1,6 +1,5 @@
----
-cifsmountSOMO:
-  srv: server-one
-  mount: mount-one
+-
+  srv: serverone
+  mount: mountone
   username: myname
   password: mypassword
