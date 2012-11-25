@@ -1,6 +1,5 @@
 ---
-cifs_remotes:
-- server-one.mount-secondary:
+cifsmountSOMS:
   srv: server-one
   mount: mount-secondary
   username: myname

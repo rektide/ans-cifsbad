@@ -1,6 +1,5 @@
 ---
-cifs_remotes:
-- server-one.mount-one:
+cifsmountSOMO:
   srv: server-one
   mount: mount-one
   username: myname
